@@ -2,3 +2,5 @@
 Bundle-*
 blib
 .lwpcookies
+Makefile
+pm_to_blib
