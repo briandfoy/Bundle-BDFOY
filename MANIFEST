@@ -1,0 +1,5 @@
+MANIFEST
+Makefile.PL
+lib/BDFOY.pm
+t/load.t
+t/pod.t

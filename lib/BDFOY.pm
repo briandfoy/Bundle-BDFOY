@@ -8,7 +8,7 @@ __END__
 
 =head1 NAME
 
-Bundle::BDFOY - install all of my modules
+Bundle::BDFOY - install all modules by BDFOY
 
 =head1 SYNOPSIS
 
