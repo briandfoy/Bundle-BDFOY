@@ -18,7 +18,11 @@ cpan Bundle::BDFOY
 
 Apache::Htaccess
 
+Apache::iTunes
+
 Business::ISBN
+
+Business::ISMN
 
 Chemistry::Elements
 
@@ -30,7 +34,11 @@ HTTP::SimpleLinkChecker
 
 HTTP::Size
 
+Mac::Errors
+
 Mac::iTunes
+
+Mac::Path::Util
 
 Mac::PropertyList
 
@@ -40,19 +48,31 @@ Netscape::Bookmarks
 
 Object::Iterate
 
+Pod::LaTeX::TPR
+
 Set::CrossProduct
 
 Test::Data
 
+Test::Env
+
+Test::File
+
 Test::HTTPStatus
+
+Test::ISBN
 
 Test::Manifest
 
 Test::Pod
 
+Test::Prereq
+
 Tie::Cycle
 
 Tie::Toggle
+
+XML::RSS
 
 =head1 AUTHOR
 
