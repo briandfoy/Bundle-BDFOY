@@ -1,6 +1,7 @@
+# $Id$
 package Bundle::BDFOY;
 
-$VERSION = '0.50';
+$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /x;
 
 1;
 
