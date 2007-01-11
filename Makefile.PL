@@ -5,6 +5,7 @@ WriteMakefile
 	(
 	'NAME'      => 'Bundle::BDFOY',
 	'ABSTRACT'  => 'install all modules by BDFOY',
+	'LICENSE'       => 'perl',
 	'VERSION_FROM'   => 'lib/BDFOY.pm',
 	'PREREQ_PM' => {
 		'File::Find::Rule'      => '0',

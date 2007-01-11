@@ -26,9 +26,13 @@ Business::ISBN::Data
 
 Business::ISMN
 
+Business::US::USPS::WebTools
+
 Chemistry::Elements
 
 ConfigReader::Simple
+
+Crypt::Rijndael
 
 Data::Constraint
 
@@ -64,7 +68,7 @@ Object::Iterate
 
 Palm::Magellan::NavCompanion
 
-Pod::LaTeX::TPR
+Pod::Perldoc::ToToc
 
 Polyglot
 
@@ -84,11 +88,7 @@ Test::Manifest
 
 Test::Prereq
 
-Test::Pod
-
 Test::URI
-
-Test::WWW::Accessibility
 
 Tie::Cycle
 
@@ -96,14 +96,13 @@ Tie::Toggle
 
 =head1 AUTHOR
 
-brian d foy, E<lt>bdfoy@cpan.orgE<gt>
+brian d foy, C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2006, brian d foy, All rights reserved.
+Copyright 2006-2007, brian d foy, All rights reserved.
 
-You can use this module under the same terms as Perl
-itself.
+You can use this module under the same terms as Perl itself.
 
 =cut
 
