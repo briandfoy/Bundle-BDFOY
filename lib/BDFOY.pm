@@ -1,6 +1,6 @@
 package Bundle::BDFOY;
 
-$VERSION = '20060527';
+$VERSION = '20070101';
 
 1;
 
