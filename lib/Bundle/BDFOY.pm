@@ -24,8 +24,6 @@ App::PPI::Dumper
 
 Brick
 
-Bundle::BDFOY
-
 Bundle::MasteringPerl
 
 Business::ISBM::Data
@@ -67,8 +65,6 @@ CPAN::PackageDetails::PerlHash
 CPAN::PackageDetails::Redis
 
 Chemistry::Elements
-
-Chemistry::Isotopes
 
 ConfigReader::Simple
 
