@@ -1,5 +1,5 @@
 MANIFEST
 Makefile.PL
-lib/BDFOY.pm
+lib/Bundle/BDFOY.pm
 t/load.t
 t/pod.t

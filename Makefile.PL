@@ -1,31 +1,29 @@
-# $Id$
 use ExtUtils::MakeMaker;
 
 require 5.006;
 
-WriteMakefile
-	(
+WriteMakefile(
 	'NAME'      => 'Bundle::BDFOY',
 	'ABSTRACT'  => 'install all modules by BDFOY',
 	'LICENSE'   => 'perl',
 	'AUTHOR'    => 'brian d foy <bdfoy@cpan.org>',
 
-	'VERSION_FROM'   => 'lib/BDFOY.pm',
+	'VERSION_FROM'   => 'lib/Bundle/BDFOY.pm',
 
 	'PREREQ_PM' => {
-		'File::Find::Rule'      => '0',
-		'Test::Pod'             => '0',
-		'Test::More'            => '0',
+		'Test::Pod'  => '0',
+		'Test::More' => '0',
 		},
 
-	'PM'        => 
-		{
-		'lib/BDFOY.pm'     => '$(INST_LIBDIR)/BDFOY.pm',
-		},
-
-	'MAN3PODS'        => 
-		{
-		'lib/BDFOY.pm'     => '$(INST_MAN3DIR)/Bundle::BDFOY.3',
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => 'https://github.com/briandfoy/Bundle-BDFOY',
+				web  => 'https://github.com/briandfoy/Bundle-BDFOY',
+				},
+			},
 		},
 
 	clean => { FILES => 'Bundle-BDFOY-*' },	

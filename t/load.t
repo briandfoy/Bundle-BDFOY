@@ -1,11 +1,9 @@
-# $Id$
-BEGIN {
-	@classes = qw(Bundle::BDFOY);
+use Test::More 0.95;
+
+my @classes = qw(Bundle::BDFOY);
+
+foreach my $class ( @classes ) {
+	BAIL_OUT() unless use_ok( $class );
 	}
 
-use Test::More tests => scalar @classes;
-	
-foreach my $class ( @classes )
-	{
-	print "bail out! $class could not compile!" unless use_ok( $class );
-	}
+done_testing();
