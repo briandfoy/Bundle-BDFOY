@@ -1,8 +1,10 @@
 Revision history for Perl module Bundle::BDFOY
 
-20150101 -
+20150101 - 2015-01-01
 	* Updates, 8 years later
 
-0.00 - Wed Jan 10 19:07:28 2007
+20070101 - Wed Jan 10 19:07:28 2007
 	* Updated for the modules I'm maintaining as of Jan 2007
 
+20060527 - 2006-05-27
+	* First release
