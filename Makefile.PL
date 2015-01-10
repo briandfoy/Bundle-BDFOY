@@ -48,7 +48,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	clean => { FILES => 'Bundle-BDFOY-*' },	
+	clean => { FILES => "$dist-*" },	
 	);
 	
 
