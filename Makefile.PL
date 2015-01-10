@@ -5,6 +5,8 @@ use warnings;
 use File::Spec::Functions qw(catfile);
 
 my $module    = 'Bundle::BDFOY';
+( my $dist = $module ) =~ s/::/-/g;
+
 my $github    = 'https://github.com/briandfoy/Bundle-BDFOY';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
