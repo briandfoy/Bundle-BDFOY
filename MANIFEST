@@ -1,5 +1,0 @@
-MANIFEST
-Makefile.PL
-lib/Bundle/BDFOY.pm
-t/load.t
-t/pod.t
