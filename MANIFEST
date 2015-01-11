@@ -1,0 +1,12 @@
+.releaserc
+.travis.yml
+Changes
+lib/Bundle/BDFOY.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+README.pod
+t/.releaserc
+t/load.t
+t/pod.t
+xt/changes.t
