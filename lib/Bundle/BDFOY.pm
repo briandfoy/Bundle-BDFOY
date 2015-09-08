@@ -6,6 +6,8 @@ $VERSION = '20150101';
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 Bundle::BDFOY - install all modules by BDFOY
@@ -394,4 +396,4 @@ You can use this module under the same terms as Perl itself.
 
 
 
-	
+
