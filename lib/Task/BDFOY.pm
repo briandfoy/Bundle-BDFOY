@@ -5,7 +5,7 @@ use warnings;
 package Task::BDFOY;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '1.002';
+our $VERSION   = '21060101';
 
 1;
 
