@@ -1,6 +1,6 @@
 package Bundle::BDFOY;
 
-$VERSION = '20160101';
+$VERSION = '20170501';
 
 1;
 
@@ -36,6 +36,8 @@ Business::ISMN
 
 Business::ISSN
 
+Business::xISBN
+
 Business::US::USPS::WebTools
 
 CACertOrg::CA
@@ -63,10 +65,6 @@ File::Fingerprint
 Geo::GeoNames
 
 Git::Github::Creator
-
-github_creator
-
-grepurl
 
 HTML::SimpleLinkExtor
 
@@ -144,10 +142,6 @@ perlbench
 
 PerlPowerTools
 
-Pod::InDesign::TaggedText
-
-Pod::InDesign::TaggedText::TPR
-
 Pod::Perldoc::ToToc
 
 Pod::PseudoPod::DocBook
@@ -167,8 +161,6 @@ Psychic::Ninja
 ReturnValue
 
 Roman::Unicode
-
-scriptdist
 
 Set::CrossProduct
 
@@ -230,9 +222,9 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2006-2016, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 2006-2017, brian d foy.
 
-You can use this module under the same terms as Perl itself.
+This code is licensed under the Artisitic License 2.0
 
 =cut
 
