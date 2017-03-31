@@ -36,8 +36,6 @@ higher versions.
 
 =item * Brick
 
-=item * Bundle::BDFOY
-
 =item * Business::ISBN
 
 =item * Business::ISBN::Data
