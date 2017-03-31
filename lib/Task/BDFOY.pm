@@ -154,10 +154,6 @@ higher versions.
 
 =item * PerlPowerTools
 
-=item * Pod::InDesign::TaggedText
-
-=item * Pod::InDesign::TaggedText::TPR
-
 =item * Pod::Perldoc::ToToc
 
 =item * Pod::PseudoPod::DocBook
@@ -177,8 +173,6 @@ higher versions.
 =item * ReturnValue
 
 =item * Roman::Unicode
-
-=item * scriptdist
 
 =item * Set::CrossProduct
 
@@ -214,8 +208,6 @@ higher versions.
 
 =item * Test::URI
 
-=item * Test::WWW::Accessibility
-
 =item * Tie::BoundedInteger
 
 =item * Tie::Cycle
@@ -231,12 +223,6 @@ higher versions.
 =item * Unicode::Support
 
 =item * Unicode::Tussle
-
-=item * weather
-
-=item * weblint++
-
-=item * webreaper
 
 =item * WordPress::Grep
 
