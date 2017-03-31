@@ -40,6 +40,8 @@ higher versions.
 
 =item * Business::ISBN::Data
 
+=item * Business::xISBN
+
 =item * Business::ISMN
 
 =item * Business::ISSN
