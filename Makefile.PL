@@ -74,6 +74,7 @@ my %WriteMakefile = (
 		'Business::ISBN' => '0',
 		'Business::ISBN::Data' => '0',
 		'Business::ISMN' => '0',
+		'Business::xISBN' => '0',
 		'Business::ISSN' => '0',
 		'Business::US::USPS::WebTools' => '0',
 		'CACertOrg::CA' => '0',
