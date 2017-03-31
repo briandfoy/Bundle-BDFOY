@@ -245,7 +245,6 @@ brian d foy C<< <bdfoy@gmail.com> >>
 
 Copyright © 2014-2017, brian d foy.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This code is licensed under the Artisitic License 2.0
 
 =cut
