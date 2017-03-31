@@ -23,6 +23,9 @@ Task::BDFOY - All of BDFOY's distributions
 
 Task::BDFOY installs the modules authored or maintained by brian d foy.
 
+Although this Task module requires 5.008, some of the modules may require
+higher versions.
+
 =over 4
 
 =item * App::Module::Lister
