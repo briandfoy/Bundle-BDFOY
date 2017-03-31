@@ -26,8 +26,6 @@ App::scriptdist
 
 Brick
 
-Bundle::BDFOY
-
 Business::ISBN
 
 Business::ISBN::Data
