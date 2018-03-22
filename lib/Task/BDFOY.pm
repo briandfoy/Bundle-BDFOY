@@ -5,7 +5,7 @@ use warnings;
 package Task::BDFOY;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '201704011'; # yes, there's an extra zero
+our $VERSION   = '20180323';
 
 1;
 
