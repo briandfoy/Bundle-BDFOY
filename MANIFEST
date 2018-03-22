@@ -1,12 +1,10 @@
 Changes
-'Changes 3'
 INSTALL.SKIP
 lib/Bundle/BDFOY.pm
 lib/Task/BDFOY.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
-'MANIFEST 3'
 MANIFEST.SKIP
 README.pod
 t/load.t
