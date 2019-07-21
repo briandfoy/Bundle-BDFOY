@@ -134,8 +134,6 @@ Polyglot
 
 PPI::App::ppi_version::BDFOY
 
-Psychic::Ninja
-
 ReturnValue
 
 Roman::Unicode
@@ -171,8 +169,6 @@ Test::Output
 Test::Prereq
 
 Test::URI
-
-Test::WWW::Accessibility
 
 Tie::BoundedInteger
 

@@ -56,7 +56,6 @@ Pod::PseudoPod::PerlTricks
 Pod::WordML
 Polyglot
 PPI::App::ppi_version::BDFOY
-Psychic::Ninja
 ReturnValue
 Roman::Unicode
 Set::CrossProduct
@@ -75,7 +74,6 @@ Test::Manifest
 Test::Output
 Test::Prereq
 Test::URI
-Test::WWW::Accessibility
 Tie::BoundedInteger
 Tie::Cycle
 Tie::StringArray

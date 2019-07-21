@@ -144,8 +144,6 @@ higher versions.
 
 =item * PPI::App::ppi_version::BDFOY
 
-=item * Psychic::Ninja
-
 =item * ReturnValue
 
 =item * Roman::Unicode
@@ -181,8 +179,6 @@ higher versions.
 =item * Test::Prereq
 
 =item * Test::URI
-
-=item * Test::WWW::Accessibility
 
 =item * Tie::BoundedInteger
 
