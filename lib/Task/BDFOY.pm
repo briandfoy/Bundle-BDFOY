@@ -23,7 +23,7 @@ Task::BDFOY - All of BDFOY's distributions
 
 Task::BDFOY installs the modules authored or maintained by brian d foy.
 
-Although this Task module requires 5.008, some of the modules may require
+Although this Task module requires 5.008, some of the modules require
 higher versions.
 
 =over 4
@@ -40,13 +40,11 @@ higher versions.
 
 =item * Business::ISBN::Data
 
-=item * Business::xISBN
-
 =item * Business::ISMN
 
 =item * Business::ISSN
 
-=item * Business::US::USPS::WebTools
+=item * Business::xISBN
 
 =item * CACertOrg::CA
 
@@ -72,25 +70,13 @@ higher versions.
 
 =item * Geo::GeoNames
 
-=item * Git::Github::Creator
-
-=item * github_creator
-
-=item * grepurl
-
 =item * HTML::SimpleLinkExtor
 
 =item * HTTP::Cookies::Chrome
 
-=item * HTTP::Cookies::iCab
-
 =item * HTTP::Cookies::Mozilla
 
-=item * HTTP::Cookies::Omniweb
-
 =item * HTTP::Cookies::Safari
-
-=item * HTTP::SimpleLinkChecker
 
 =item * HTTP::Size
 
@@ -100,13 +86,7 @@ higher versions.
 
 =item * Mac::Errors
 
-=item * Mac::iPhoto::Shell
-
-=item * Mac::iTerm::LaunchPad
-
 =item * Mac::OSVersion
-
-=item * Mac::Path::Util
 
 =item * Mac::PropertyList
 
@@ -140,8 +120,6 @@ higher versions.
 
 =item * Net::SSH::Perl::WithSocks
 
-=item * Netscape::Bookmarks
-
 =item * Object::Iterate
 
 =item * PeGS::PDF
@@ -159,8 +137,6 @@ higher versions.
 =item * Pod::PseudoPod::DocBook
 
 =item * Pod::PseudoPod::PerlTricks
-
-=item * Pod::SpeakIt::MacSpeech
 
 =item * Pod::WordML
 
@@ -196,8 +172,6 @@ higher versions.
 
 =item * Test::File
 
-=item * Test::HTTPStatus
-
 =item * Test::ISBN
 
 =item * Test::Manifest
@@ -207,6 +181,8 @@ higher versions.
 =item * Test::Prereq
 
 =item * Test::URI
+
+=item * Test::WWW::Accessibility
 
 =item * Tie::BoundedInteger
 
@@ -243,7 +219,7 @@ brian d foy C<< <bdfoy@gmail.com> >>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright © 2014-2018, brian d foy.
+Copyright © 2014-2019, brian d foy.
 
 This code is licensed under the Artisitic License 2.0
 
