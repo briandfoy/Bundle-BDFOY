@@ -194,7 +194,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2006-2019, brian d foy.
+Copyright © 2006-2021, brian d foy.
 
 This code is licensed under the Artisitic License 2.0
 
