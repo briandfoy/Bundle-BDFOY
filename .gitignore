@@ -31,3 +31,6 @@ CHANGES 3
 MANIFEST 3
 Bundle-
 *.icould
+MANIFEST*[123456789]
+Changes*[123456789]
+
