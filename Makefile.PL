@@ -42,7 +42,7 @@ my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Bundle-BDFOY';
-my $main_file = catfile( 'lib', split /::/, "$module.pm" );
+my $main_file = catfile( 'lib', 'Bundle'. "BDFOY", "Info.pm" );
 
 my %WriteMakefile = (
 	'MIN_PERL_VERSION' => '5.008',
