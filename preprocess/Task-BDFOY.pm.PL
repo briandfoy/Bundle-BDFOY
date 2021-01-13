@@ -31,7 +31,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding utf8
 
 =head1 NAME
 
