@@ -5,7 +5,7 @@ use warnings;
 package Task::BDFOY;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '20190721';
+our $VERSION   = '20210112';
 
 1;
 
@@ -34,6 +34,10 @@ higher versions.
 
 =item * App::scriptdist
 
+=item * App::unichar
+
+=item * App::url
+
 =item * Brick
 
 =item * Business::ISBN
@@ -42,15 +46,13 @@ higher versions.
 
 =item * Business::ISMN
 
-=item * Business::ISSN
-
-=item * Business::xISBN
-
 =item * CACertOrg::CA
 
 =item * Chemistry::Elements
 
 =item * ConfigReader::Simple
+
+=item * CPAN::Mini::Inject
 
 =item * CPAN::PackageDetails
 
@@ -70,13 +72,7 @@ higher versions.
 
 =item * Geo::GeoNames
 
-=item * HTML::SimpleLinkExtor
-
 =item * HTTP::Cookies::Chrome
-
-=item * HTTP::Cookies::Mozilla
-
-=item * HTTP::Cookies::Safari
 
 =item * HTTP::Size
 
@@ -110,35 +106,25 @@ higher versions.
 
 =item * Modulino::Demo
 
+=item * Mojo::Promise::Rile::HigherOrder
+
 =item * MyCPAN::App::DPAN
 
 =item * MyCPAN::Indexer
-
-=item * Net::MAC::Vendor
-
-=item * Net::SSH::Perl::ProxiedIPC
-
-=item * Net::SSH::Perl::WithSocks
 
 =item * Object::Iterate
 
 =item * PeGS::PDF
 
-=item * Perl::MinimumVersion::Fast
-
 =item * Perl::Version
+
+=item * PerlPowerTools
 
 =item * perlbench
 
 =item * PerlPowerTools
 
 =item * Pod::Perldoc::ToToc
-
-=item * Pod::PseudoPod::DocBook
-
-=item * Pod::PseudoPod::PerlTricks
-
-=item * Pod::WordML
 
 =item * Polyglot
 
@@ -189,10 +175,6 @@ higher versions.
 =item * Tie::Timely
 
 =item * Tie::Toggle
-
-=item * Unicode::Casing
-
-=item * Unicode::Support
 
 =item * Unicode::Tussle
 

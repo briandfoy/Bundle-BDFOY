@@ -1,6 +1,6 @@
 package Bundle::BDFOY;
 
-our $VERSION   = '20190721';
+our $VERSION   = '20210112';
 
 1;
 
@@ -18,175 +18,161 @@ Bundle::BDFOY - install all modules by BDFOY
 
 =head1 CONTENTS
 
-App::Module::Lister
+=over 4
 
-App::PPI::Dumper
+=item * App::Module::Lister
 
-App::scriptdist
+=item * App::PPI::Dumper
 
-Brick
+=item * App::scriptdist
 
-Business::ISBN
+=item * App::unichar
 
-Business::ISBN::Data
+=item * App::url
 
-Business::ISMN
+=item * Brick
 
-Business::ISSN
+=item * Business::ISBN
 
-Business::xISBN
+=item * Business::ISBN::Data
 
-CACertOrg::CA
+=item * Business::ISMN
 
-Chemistry::Elements
+=item * CACertOrg::CA
 
-ConfigReader::Simple
+=item * Chemistry::Elements
 
-CPAN::PackageDetails
+=item * ConfigReader::Simple
 
-Crypt::Rijndael
+=item * CPAN::Mini::Inject
 
-Data::Constraint
+=item * CPAN::PackageDetails
 
-Distribution::Cooker
+=item * Crypt::Rijndael
 
-Distribution::Guess::BuildSystem
+=item * Data::Constraint
 
-Dumbbench
+=item * Distribution::Cooker
 
-File::Find::Closures
+=item * Distribution::Guess::BuildSystem
 
-File::Fingerprint
+=item * Dumbbench
 
-Geo::GeoNames
+=item * File::Find::Closures
 
-HTML::SimpleLinkExtor
+=item * File::Fingerprint
 
-HTTP::Cookies::Chrome
+=item * Geo::GeoNames
 
-HTTP::Cookies::Mozilla
+=item * HTTP::Cookies::Chrome
 
-HTTP::Cookies::Safari
+=item * HTTP::Size
 
-HTTP::Size
+=item * IO::Interactive
 
-IO::Interactive
+=item * Log::Log4perl::Appender::ScreenColoredLevels::UsingMyColors
 
-Log::Log4perl::Appender::ScreenColoredLevels::UsingMyColors
+=item * Mac::Errors
 
-Mac::Errors
+=item * Mac::OSVersion
 
-Mac::OSVersion
+=item * Mac::PropertyList
 
-Mac::PropertyList
+=item * MacOSX::Alias
 
-MacOSX::Alias
+=item * Math::NoCarry
 
-Math::NoCarry
+=item * Module::Extract::DeclaredMinimumPerl
 
-Module::Extract::DeclaredMinimumPerl
+=item * Module::Extract::Namespaces
 
-Module::Extract::Namespaces
+=item * Module::Extract::Use
 
-Module::Extract::Use
+=item * Module::Extract::VERSION
 
-Module::Extract::VERSION
+=item * Module::Release
 
-Module::Release
+=item * Module::Release::Git
 
-Module::Release::Git
+=item * Module::Starter::AddModule
 
-Module::Starter::AddModule
+=item * Modulino::Demo
 
-Modulino::Demo
+=item * Mojo::Promise::Rile::HigherOrder
 
-MyCPAN::App::DPAN
+=item * MyCPAN::App::DPAN
 
-MyCPAN::Indexer
+=item * MyCPAN::Indexer
 
-Net::MAC::Vendor
+=item * Object::Iterate
 
-Net::SSH::Perl::ProxiedIPC
+=item * PeGS::PDF
 
-Net::SSH::Perl::WithSocks
+=item * Perl::Version
 
-Object::Iterate
+=item * PerlPowerTools
 
-PeGS::PDF
+=item * perlbench
 
-Perl::MinimumVersion::Fast
+=item * PerlPowerTools
 
-Perl::Version
+=item * Pod::Perldoc::ToToc
 
-perlbench
+=item * Polyglot
 
-PerlPowerTools
+=item * PPI::App::ppi_version::BDFOY
 
-Pod::Perldoc::ToToc
+=item * ReturnValue
 
-Pod::PseudoPod::DocBook
+=item * Roman::Unicode
 
-Pod::PseudoPod::PerlTricks
+=item * Set::CrossProduct
 
-Pod::WordML
+=item * SourceCode::LineCounter::Perl
 
-Polyglot
+=item * String::Sprintf
 
-PPI::App::ppi_version::BDFOY
+=item * Surveyor::App
 
-ReturnValue
+=item * Surveyor::Benchmark::HTMLEntities
 
-Roman::Unicode
+=item * Surveyor::Benchmark::SchwartzianTransform::SortFilesBySize
 
-Set::CrossProduct
+=item * Task::MasteringPerl
 
-SourceCode::LineCounter::Perl
+=item * Task::MojoLearningEnvironment
 
-String::Sprintf
+=item * Test::Data
 
-Surveyor::App
+=item * Test::Env
 
-Surveyor::Benchmark::HTMLEntities
+=item * Test::File
 
-Surveyor::Benchmark::SchwartzianTransform::SortFilesBySize
+=item * Test::ISBN
 
-Task::MasteringPerl
+=item * Test::Manifest
 
-Task::MojoLearningEnvironment
+=item * Test::Output
 
-Test::Data
+=item * Test::Prereq
 
-Test::Env
+=item * Test::URI
 
-Test::File
+=item * Tie::BoundedInteger
 
-Test::ISBN
+=item * Tie::Cycle
 
-Test::Manifest
+=item * Tie::StringArray
 
-Test::Output
+=item * Tie::Timely
 
-Test::Prereq
+=item * Tie::Toggle
 
-Test::URI
+=item * Unicode::Tussle
 
-Tie::BoundedInteger
+=item * WordPress::Grep
 
-Tie::Cycle
-
-Tie::StringArray
-
-Tie::Timely
-
-Tie::Toggle
-
-Unicode::Casing
-
-Unicode::Support
-
-Unicode::Tussle
-
-WordPress::Grep
+=back
 
 =head1 AUTHOR
 
