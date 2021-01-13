@@ -23,7 +23,7 @@ use warnings;
 package Task::BDFOY;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '%%DATE%%';
+our $VERSION   = '%%VERSION%%';
 
 1;
 

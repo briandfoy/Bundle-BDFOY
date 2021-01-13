@@ -42,13 +42,13 @@ my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Bundle-BDFOY';
-my $main_file = catfile( 'lib', 'Bundle'. "BDFOY", "Info.pm" );
+my $main_file = catfile(  qw(lib Bundle BDFOY Info.pm ) );
 
 my %WriteMakefile = (
 	'MIN_PERL_VERSION' => '5.008',
 
 	'NAME'          => $module,
-	'VERSION'       => $main_file,
+	'VERSION_FROM'  => $main_file,
 	'ABSTRACT'      => 'install all modules by BDFOY',
 	'LICENSE'       => 'artistic_2',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
@@ -117,22 +117,18 @@ sub do_it {
 
 sub process_string {
 	my( undef, $string ) = @_;
-	my $date   = get_date();
-	my $list   = get_modules_pod_list();
+	my $version = get_version();
+	my $list    = get_modules_pod_list();
 
-	$string =~ s/%%DATE%%/$date/g;
+	$string =~ s/%%VERSION%%/$version/g;
 	$string =~ s/%%LIST%%/$list/g;
 
 	$string;
 	}
 
-sub get_date {
-	my( $year, $month, $date ) = (localtime)[5,4,3];
-	$year += 1900;
-	$month += 1;
-	my $serial = 1;
-
-	sprintf '%04d%02d%02d', $year, $month, $date;
+sub get_version {
+	require "./$main_file";
+	$Bundle::BDFOY::Info::VERSION;
 	}
 
 sub get_modules {

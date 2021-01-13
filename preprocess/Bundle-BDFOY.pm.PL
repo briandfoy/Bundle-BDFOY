@@ -18,7 +18,7 @@ print $package->process_string( <DATA> );
 __END__
 package Bundle::BDFOY;
 
-our $VERSION   = '%%DATE%%';
+our $VERSION   = '%%VERSION%%';
 
 1;
 
