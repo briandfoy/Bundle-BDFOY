@@ -17,6 +17,8 @@ in F<module_file>. See the stuff in F<preprocess/>.
 =cut
 
 package Bundle::BDFOY::Info;
+our $VERSION = '20210112';
+
 package Task::BDFOY;
 package Bundle::BDFOY;
 
