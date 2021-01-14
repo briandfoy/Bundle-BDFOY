@@ -42,7 +42,7 @@ my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Bundle-BDFOY';
-my $main_file = catfile(  qw(lib Bundle BDFOY Info.pm ) );
+my $main_file = catfile(  qw(lib Bundle BDFOY.pm ) );
 
 my %WriteMakefile = (
 	'MIN_PERL_VERSION' => '5.008',
@@ -115,8 +115,24 @@ sub do_it {
 	WriteMakefile( %$arguments );
 	}
 
-sub process_string {
-	my( undef, $string ) = @_;
+sub make_file {
+	my( $package, $template, $file ) = @_;
+
+	unlink $file if -e $file;
+
+	require File::Basename;
+	require File::Path;
+	my $dirname = File::Basename::dirname( $file );
+	File::Path::make_path( $dirname );
+	open my $fh, '>:utf8', $file
+		or die "Could not open file <$file>: $!";
+
+	print { $fh } process_template( $template );
+	close $fh;
+	}
+
+sub process_template {
+	my( $string ) = @_;
 	my $version = get_version();
 	my $list    = get_modules_pod_list();
 
@@ -127,8 +143,8 @@ sub process_string {
 	}
 
 sub get_version {
-	require "./$main_file";
-	$Bundle::BDFOY::Info::VERSION;
+	require "./lib/Bundle/BDFOY.pm";
+	$Bundle::BDFOY::VERSION;
 	}
 
 sub get_modules {

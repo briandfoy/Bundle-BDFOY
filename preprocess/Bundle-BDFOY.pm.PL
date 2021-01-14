@@ -1,19 +1,9 @@
 use utf8;
 
-if( @ARGV ) {
-	require File::Basename;
-	require File::Path;
-	my $dirname = File::Basename::dirname( $ARGV[0] );
-	File::Path::make_path( $dirname );
-	open my $fh, '>:utf8', $ARGV[0]
-		or die "Could not open file <$ARGV[0]>: $!";
-	select( $fh );
-	}
-
 my $package = require './Makefile.PL';
 
 local $/;
-print $package->process_string( <DATA> );
+print $package->make_file( <DATA>, $ARGV[0] );
 
 __END__
 package Bundle::BDFOY;
