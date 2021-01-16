@@ -71,6 +71,6 @@ module_list.txt
 tools/*
 \bMANIFEST\s\d
 \bChanges\s\d
-
+\.icloud$
 \A\.github\b
 
