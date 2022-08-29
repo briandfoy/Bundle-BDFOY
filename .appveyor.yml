@@ -1,0 +1,25 @@
+# brian's standard Appveyor config for Perl 5 modules
+# https://github.com/briandfoy/brians_perl_modules_appveyor_config
+# This file is licensed under the Artistic License 2.0
+
+image:
+  - Visual Studio 2022
+
+platform: x64
+
+branches:
+  only:
+    - master
+    - appveyor
+
+skip_tags: true
+
+install:
+  - cmd: if not exist "C:\strawberry" cinst strawberryperl
+  - cmd: set PATH=C:\strawberry\perl\bin;C:\strawberry\perl\site\bin;C:\strawberry\c\bin;%PATH%
+  - cmd: cd %APPVEYOR_BUILD_FOLDER%
+  - perl -v
+
+build_script:
+  - perl Makefile.PL
+  - cmd: gmake test
