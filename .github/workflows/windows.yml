@@ -56,7 +56,6 @@ jobs:
 # but that's not a big deal.
             - name: Install dependencies
               run: |
-                cpan -M https://www.cpan.org -T .
                 cpan -M https://www.cpan.org -T Test::Manifest
             - name: Run tests
               run: |

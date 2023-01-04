@@ -63,9 +63,6 @@ jobs:
 # Install the dependencies, again not testing them. This installs the
 # module in the current directory, so we end up installing the module,
 # but that's not a big deal.
-            - name: Install dependencies
-              run: |
-                cpan -M https://www.cpan.org -T .
             - name: Run tests
               run: |
                 perl Makefile.PL
