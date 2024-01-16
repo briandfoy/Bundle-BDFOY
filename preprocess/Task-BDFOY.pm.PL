@@ -51,7 +51,7 @@ L<Task>.
 
 =head1 AUTHOR
 
-brian d foy C<< <bdfoy@gmail.com> >>
+brian d foy C<< <briandfoy@pobox.com> >>
 
 =head1 COPYRIGHT AND LICENCE
 
