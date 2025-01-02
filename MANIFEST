@@ -9,6 +9,7 @@ module_list
 preprocess/Bundle-BDFOY.pm.PL
 preprocess/Task-BDFOY.pm.PL
 README.pod
+SECURITY.md
 t/load.t
 t/pod.t
 xt/changes.t
