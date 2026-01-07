@@ -75,3 +75,5 @@ tools/*
 
 \.gitattributes\b
 \.bmt
+
+.downstream.json
